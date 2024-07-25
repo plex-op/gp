@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* .navgiation_bar {
+  background-color: transparent;
+  z-index: 100;
+} */
+.navgiation_bar .navbar-brand {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.nav-item a {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.get_started {
+  border: 2px solid #ffc451;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.get_started a {
+  text-decoration: none;
+  color: white;
+}
+
+/* banner-section */
+.banner-section {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 120px 0 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-section::before {
+  content: "";
+  background: color-mix(in srgb, #060606, transparent 30%);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+.banner-section img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #ffc451;
+}
+.banner-content {
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.banner-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  align-items: center;
+}
+.banner-content p {
+  margin: 10px 0 0 0;
+  font-size: 24px;
+  color: color-mix(in srgb, #fff, transparent 30%);
+}
+.banner-icon {
+  position: relative;
+  z-index: 2;
+}
+.icon-box {
+  padding: 30px 20px;
+  border: 1px solid white;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #ffc451;
+}
+.icon-box a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.about-content h3 {
+  font-weight: 700;
+}
+
+/* client-img */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* features */
+
+.list-feat i {
+  font-size: 48px;
+  color: #ffc451;
+  margin-right: 20px;
+  line-height: 0;
+}
+.list-content h3 {
+  font-size: 20px;
+}
+.list-content p {
+  font-size: 14px;
+  color: color-mix(in srgb, #444444, transparent 20%);
+}
+
+/* text-left */
+.text-left::after {
+  content: "";
+  display: inline-block;
+  width: 120px;
+  height: 1px;
+  background-color: #ffc451;
+  margin: 4px 10px;
+}
+
+.ser-icon {
+  background-color: #ffc451;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.ser-icon i {
+  font-size: 28px;
+}
+
+.banner-action {
+  background-image: url(./assets/img/cta-bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card-showcase i {
+  font-size: 44px;
+  color: #ffc451;
+  line-height: 0;
+  margin-right: 15px;
+}
+.showcase-counter {
+  color: black;
+  font-size: 40px;
+  display: block;
+  font-weight: 700;
+  line-height: 40px;
+}
+.showcase-content p {
+  color: color-mix(in srgb, #444444, transparent 40%);
+  padding: 15px 0 0 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* testimonial-section */
+.testimonial-section {
+  background-image: url(./assets/img/testimonials-bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* contact-icon */
+.contact-icon {
+}
+
+.contact-icon i {
+  display: flex;
+  background-color: #ffc451;
+  font-size: 20px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.contact-info h4 {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.contact-info p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.person-info input {
+  width: 100px;
+}
+
+.footer-social-icons a {
+  text-decoration: none;
+  color: white;
+  background-color: #444444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.useful-links li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  color: #dadada;
+  list-style-image: url(./assets/img/apple-touch-icon.png);
+}

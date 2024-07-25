@@ -1,0 +1,39 @@
+<div class="nav_bar">
+  <a href="">GP <span>.</span></a>
+  <div class="nav_menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div><a href="">Get Started</a></div>
+  </div>
+</div>
+
+<nav class="navbar d-flex">
+  <div class="container">
+    <a href="">GP.</a>
+    <div>
+      <ul class="navbar-nav nav_bar">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Team</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div><a href="">Get Started</a></div>
+  </div>
+</nav>

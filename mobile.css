@@ -1,0 +1,8 @@
+@media (320px <= width <= 768px) {
+  .banner-content h1 {
+    font-size: 30px;
+  }
+  .icon-box a {
+    font-size: 18px;
+  }
+}
